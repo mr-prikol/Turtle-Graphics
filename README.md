@@ -20,7 +20,8 @@ The statemants in the loop can also be overwritten in one statemant using chaini
 for (int i = 0; i < 4; i++)
     turtle.forward(100).right(90);
 ```
-The output will be next:
+The output will be next: \
+
 ![SquareExample](/img/square-example.png)
 
 Let's take a look on more complicated example. The next script will create fractal called Sierpinski Triangle. The idea is to take a random point inside a triangle and choose random vertex of the triangle. A dot will be drawn in the middle between given point and the chosen vertex. Then repeat this assuming that new start location is the dot that we've drawn. \
@@ -80,5 +81,6 @@ Now let's implement it:
 		}
 		
 ```
-We get next output:
+We get next output: \
+
 ![FractalExample](/img/fractal-example.png)
