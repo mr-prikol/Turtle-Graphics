@@ -24,7 +24,7 @@ The output will be next: \
 ![SquareExample](/img/square-example.png)
 
 Let's take a look on more complicated example. The next script will create fractal called Sierpinski Triangle. The idea is to take a random point inside a triangle and choose random vertex of the triangle. A dot will be drawn in the middle between given point and the chosen vertex. Then repeat this assuming that new start location is the dot that we've drawn. \
-Now let's implement it:
+NNow let's implement it:
 ```java
 // Creating vertexes of the triangle ABC
 final Point2D A = new Point2D.Double(-187, -150);
